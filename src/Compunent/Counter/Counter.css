@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.counter {
+    width: 20%;
+    background-color: bisque;
+    margin: 0 auto;
+   text-align: center;
+   padding: 20px 0;
+   border-radius: 5px;
+
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0 5px;
+    margin-top: 20px;
+
+
+}
+.value{
+    font-size: 35px;
+   
+}
