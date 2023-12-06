@@ -16,10 +16,12 @@ const ToDoList = () => {
     }
     return (
         <div>
+            <h1 style={{textAlign:"center", color:"tomato"}}>To Do List</h1>
+
             <div className='toDo'>
        <div className='forms'>
         <input type='text' onChange={(e) => setInput(e.target.value)} placeholder='Enter value' />
-        <a className='btn' onClick={handleOnsubmit}>Add Val</a>
+        <a className='btn' onClick={handleOnsubmit}>Add Value</a>
         </div>  
        
         </div>

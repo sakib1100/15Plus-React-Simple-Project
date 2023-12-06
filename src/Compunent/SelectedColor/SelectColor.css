@@ -1,0 +1,16 @@
+.colorContainer{
+    display: flex;
+    justify-content: center;
+}
+.selectColor input{
+    width: 40px;
+    height: 40px;
+    max-width: auto;
+    margin-bottom: 5px;
+    
+  
+}
+.selectColor{
+    text-align: center;
+
+}

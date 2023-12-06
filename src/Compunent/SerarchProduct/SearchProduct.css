@@ -1,0 +1,23 @@
+.searchProduct{
+    width: 500px;
+    height: 300px;
+
+}
+.Containers{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+input{
+ padding: 5px;
+}
+.liststule{
+    list-style: none;
+}
+.mainData{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+
+

@@ -6,6 +6,8 @@ import Form from './Compunent/Form/Form';
 import Toggle from './Compunent/Toggle/Toggle';
 import Practic from './Compunent/Practic';
 import ToDoList from './Compunent/ToDoList/ToDoList';
+import SerarchProduct from './Compunent/SerarchProduct/SerarchProduct';
+import SelectedColor from './Compunent/SelectedColor/SelectedColor';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path='/toggle' element={<Toggle />}></Route>
         <Route path='/toDoList' element={<ToDoList />}></Route>
         <Route path='/practic' element={<Practic />}></Route>
+        <Route path='/serarchProduct' element={<SerarchProduct />}></Route>
+        <Route path='/selectColor' element={<SelectedColor />}></Route>
       </Routes>
     </div>
   );
